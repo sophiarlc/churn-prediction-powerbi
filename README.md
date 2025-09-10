@@ -55,7 +55,7 @@ Foram desenvolvidos **3 painéis no Power BI**:
 
 2. **Razão do Churn**  
    - Razões das quais motivaram os cancelamentos, para conexão com a visualização Total Churn por Razão
-   - 
+   
 ![Razao](Churn_Razao.png)
 
 3. **Predição**  
