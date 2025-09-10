@@ -17,14 +17,7 @@ Este projeto tem como objetivo **analisar e prever o churn de clientes** (cancel
 - **Python (via Fabric Notebooks)** → Modelagem estatística
 - **CSV/Excel** → Fonte de dados inicial
 
-
-## Etapas do Projeto
-
-### 1. Entendimento do Problema
-O **churn (rotatividade de clientes)** impacta diretamente na receita e crescimento das empresas.  
-O desafio foi **entender os fatores de cancelamento** e **criar um modelo preditivo** para antecipar clientes em risco.  
-
-## 📂 Dataset
+## Dataset
 
 O dataset foi disponibilizado em planilhas Excel, contendo informações sobre:
 
@@ -36,6 +29,12 @@ O dataset foi disponibilizado em planilhas Excel, contendo informações sobre:
 Planilhas principais utilizadas:
 - `vw_ChurnData` → Treinamento e avaliação do modelo  
 - `vw_JoinData` → Previsões em novos clientes
+
+## Etapas do Projeto
+
+### 1. Entendimento do Problema
+O **churn (rotatividade de clientes)** impacta diretamente na receita e crescimento das empresas.  
+O desafio foi **entender os fatores de cancelamento** e **criar um modelo preditivo** para antecipar clientes em risco.  
 
 ### 2. Preparação dos Dados
 - Importação no **Microsoft Fabric (Lakehouse)**.  
