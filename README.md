@@ -24,6 +24,19 @@ Este projeto tem como objetivo **analisar e prever o churn de clientes** (cancel
 O **churn (rotatividade de clientes)** impacta diretamente na receita e crescimento das empresas.  
 O desafio foi **entender os fatores de cancelamento** e **criar um modelo preditivo** para antecipar clientes em risco.  
 
+## 📂 Dataset
+
+O dataset foi disponibilizado em planilhas Excel, contendo informações sobre:
+
+- Dados demográficos (idade, gênero, estado, etc.)  
+- Perfil de consumo (serviços contratados, cobranças, contratos)  
+- Status do cliente (**Stayed** / **Churned**)  
+- Categoria e motivo do churn  
+
+Planilhas principais utilizadas:
+- `vw_ChurnData` → Treinamento e avaliação do modelo  
+- `vw_JoinData` → Previsões em novos clientes
+
 ### 2. Preparação dos Dados
 - Importação no **Microsoft Fabric (Lakehouse)**.  
 - **Transformações SQL** para limpeza e padronização.  
