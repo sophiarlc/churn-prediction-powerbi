@@ -50,19 +50,19 @@ Foram desenvolvidos **3 painéis no Power BI**:
    - Total Clientes, Total Churn, Novos Clientes
    - Visualização: Demográfico, Geográfico, Informações de pagamento e conta, Serviços, Taxa de Permanência, Razão Churn, Contrato, Faixa Etária
 
-![Gráfico](Sumario_Churn)
+![Geral](Sumario_Churn.png)
   
 
 2. **Razão do Churn**  
    - Razões das quais motivaram os cancelamentos, para conexão com a visualização Total Churn por Razão
    - 
-![Gráfico](Churn_Razao)
+![Razao](Churn_Razao.png)
 
 3. **Predição**  
    - Clientes em risco
    - Perfil previsto de Churn
 
-![Gráfico](Churn_Previsao)  
+![Predição](Churn_Previsao.png)  
 
 ## 🤖 4. Machine Learning com Microsoft Fabric Notebooks
 Para a predição de **Churn**, utilizei o **Microsoft Fabric Notebooks** integrado ao Power BI.  
